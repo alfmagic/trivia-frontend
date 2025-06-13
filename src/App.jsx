@@ -7,7 +7,7 @@ import { faHome, faCog, faPlay, faUsers, faShareAlt, faCopy, faCheck, faTimes, f
 // IMPORTANT: Replace this with the URL of your deployed backend once you have it!
 // For local development, it might be 'http://localhost:5000'
 // For Render, it will be something like 'https://your-app-name.onrender.com'
-const API_BASE_URL = 'https://trivia-multiplayer-backend-service.onrender.com'; // Apunta a mi backend de prueba
+const API_BASE_URL = 'https://trivia-backend-odlc.onrender.com'; // Apunta a mi backend de prueba
 
 function App( ) {
   const [gameState, setGameState] = useState('menu'); // menu, singlePlayer, multiplayer, gameSettings, roomLobby
